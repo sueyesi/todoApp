@@ -29,7 +29,7 @@ function addTask(){
     //console.log("click")
     //버튼을 클릭하고 난 후 할일들~ 
     //객체로 정의   
-    //값을 입력하지 않았을경우??
+    //값을 입력하지 않았을경우???
     let taskValue = taskInput.value;
     if(taskValue == ''){
         alert("값이 입력되지 않았습니다.");
