@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{    
+    font-family: 'GmarketSansMedium';
+    margin: 0;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    background-size: cover;
+}
+.container{
+    background: #fff;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.taskTab {
+    width: 100%;
+    display: flex;
+    border: 1px solid #9890e3;
+    position: relative;
+}
+.taskTab div{
+    width: 100px;       
+    text-align: center;
+    padding: 1rem;
+    list-style: none;
+}
+#underLine{
+    height: 4px;
+    background: #b1f4cf;
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 0;
+    padding: 0;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
